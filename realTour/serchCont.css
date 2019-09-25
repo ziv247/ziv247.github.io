@@ -1,0 +1,84 @@
+.page-title {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cont {
+    padding: 16px;
+}
+
+.alert-info {
+    background-color: #2e78c2;
+    color: #fff;
+    font-size: 14px;
+    border-radius: 0;
+    border-color: #2e78c2;
+    padding: 8px 25px 8px 8px;
+    text-align: left;
+    margin: 0;
+    position: relative;
+}
+
+.alert-info a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.alert-info .btn {
+    border-radius: 40%;
+    font-size: 14px;
+}
+
+.alert-info .btn-group {
+    position: absolute;
+    right: 5px;
+    top: -20px;
+}
+
+.btn-outline-dark {
+    background-color: #fff;
+}
+
+.component_ab-sort {
+    margin-bottom: 8px;
+    color: #757575;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.component_ab-sort {
+    margin-bottom: 8px;
+    color: #757575;
+}
+
+@media only screen and (min-width: 767px) {
+    .ab-list-view .srp-sorting-control {
+        margin-left: 50px;
+    }
+}
+
+.ab-list-view .srp-sorting-control {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -moz-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.srp-sorting-control {
+    margin-left: 50px;
+}
+
+.hasCustomSelect select {
+    color: #2e78c2;
+}

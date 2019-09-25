@@ -1,0 +1,215 @@
+.card {
+    position: relative;
+    cursor: pointer;
+    /* width: 300px; */
+    z-index: 0;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.12);
+    padding: 5px;
+    margin-bottom: 15px;
+}
+
+.card:hover,
+.numbers:hover {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.25);
+}
+
+.card_div {
+    width: 100%;
+}
+
+.card_content {
+    width: 70%;
+    margin: auto;
+    padding: 40px 16px 0;
+}
+
+.card_content a {
+    color: #3377cc;
+    font-size: 15px;
+    margin: 10px 0px 20px;
+    text-decoration: none;
+}
+
+.card_content h2 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 21px;
+}
+
+.img_div {
+    position: relative;
+    /* max-height: 200px; */
+}
+
+.img_div img {
+    position: relative;
+    width: 100%;
+    max-height: 200px;
+}
+
+.left_green {
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    font-size: 11px;
+    padding: 2px 4px;
+    font-weight: 700;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.save-wrap.jsx-1146423330 {
+    position: absolute;
+    top: 3px;
+    right: 6px;
+    z-index: 2;
+}
+
+.save-wrap.jsx-1146423330 button {
+    background: transparent;
+    border: 0;
+}
+
+.heart {
+    background-color: red;
+    display: inline-block;
+    height: 30px;
+    margin: 0 10px;
+    position: relative;
+    top: 0;
+    transform: rotate(-45deg);
+    width: 30px;
+}
+
+.heart:before,
+.heart:after {
+    content: "";
+    background-color: red;
+    border-radius: 50%;
+    height: 30px;
+    position: absolute;
+    width: 30px;
+}
+
+.heart:before {
+    top: -15px;
+    left: 0;
+}
+
+.heart:after {
+    left: 15px;
+    top: 0;
+}
+
+.h_div {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+.price {
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0.5px 1px #666;
+    display: inline-block;
+    font-weight: 700;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+
+button.jsx-3446138165:not(.is-saved):hover path {
+    fill: rgba(217, 34, 40, 0.2) !important;
+}
+
+.detail-wrap.jsx-1146423330 {
+    padding: 8px 16px;
+    position: relative;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    overflow: hidden;
+}
+
+.address.jsx-1146423330 {
+    color: #333333;
+    line-height: 16px;
+    min-height: 16px;
+}
+
+.ellipsis.jsx-1146423330 {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.property-meta.jsx-463895589 {
+    margin: 0;
+}
+
+.list-unstyled,
+.list-horizontal {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+}
+
+.price.jsx-1146423330 {
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    text-shadow: 0.5px 1px #666;
+    display: inline-block;
+    font-weight: 700;
+}
+
+.property-meta.jsx-463895589 .prop-meta.jsx-463895589 .meta-value.jsx-463895589 {
+    margin-right: 4px;
+}
+
+.property-meta.jsx-463895589 .prop-meta.jsx-463895589 {
+    display: inline-block;
+    color: #333333;
+    margin-right: 24px;
+}
+
+.card_wrap {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 100%;
+    overflow: auto;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.photo-wrap.jsx-1146423330 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    width: 100%;
+    -webkit-transition: width 0.2s linear;
+    -webkit-transition: width 0.2s linear;
+    transition: width 0.2s linear;
+}
+
+.address.jsx-1146423330 {
+    color: #333333;
+    line-height: 16px;
+    min-height: 16px;
+}
+
+.ellipsis.jsx-1146423330 {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}

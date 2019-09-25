@@ -1,0 +1,1187 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="fontawesome-free-5.10.2-web/css/all.css">
+    <!-- My CSS Files -->
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="serchCont.css">
+    <link rel="stylesheet" href="cardview.css">
+    <title>Hello, world!</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+        <a class="header-logo" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="156" height="29" viewBox="0 0 445 82">
+            <g fill="none">
+                <path fill="#D52331"
+                    d="M31.8 41.7c-2.8 0-4.3-1.2-5-3.4-.9-2-.7-3-2.7-3-2.1 0-7 5.7-7.7 13.5l-.2 9V65c0 3.1-.2 7 .4 9.4.5 3 1.4 3.4 3.8 4.5l1.7.5v.3H.5v-.3c.5 0 1-.2 1.8-.5 2.4-1 3-1.4 3.6-4.5.6-2.3.4-6.3.4-9.4V45c0-2 .1-7.6-.1-9.3-.4-2.2-1-2.9-2-3.7-1.1-1-2.3-1-3-1v-.3h14.4c.7 0 .7.3.7.7v13.2c1.4-5.8 4.4-9.5 6-11 1.7-1.8 4.7-3.9 8.3-3.9 1.8 0 3.7.5 5 1.8 1 1 1.6 2.5 1.6 4.9 0 2.8-1.7 5.4-5.4 5.4">
+                </path>
+                <path fill="#252521"
+                    d="M248.4 41.7c-2.8 0-4.3-1.2-5-3.4-.9-2-.7-3-2.7-3-2.1 0-7 5.7-7.7 13.5l-.2 9V65c0 3.1-.2 7 .4 9.4.5 3 1.3 3.4 3.8 4.5l1.7.5v.3H217v-.3c.5 0 1-.2 1.7-.5 2.5-1 3.2-1.4 3.7-4.5.6-2.3.4-6.3.4-9.4V45c0-2 .1-7.6-.1-9.3-.4-2.2-1-2.9-2-3.7-1.2-1-2.3-1-3-1v-.3h14.4c.7 0 .7.3.7.7v13.2c1.4-5.8 4.4-9.5 6-11 1.6-1.8 4.6-3.9 8.3-3.9 1.8 0 3.7.5 5 1.8 1 1 1.6 2.5 1.6 4.9 0 2.8-1.7 5.4-5.4 5.4">
+                </path>
+                <path fill="#D52331"
+                    d="M63 34a9.2 9.2 0 0 0-6.4-2.1 8 8 0 0 0-6 2.2c-2.5 2.2-4 7.5-4.3 15H63c3.3 0 3.7-.1 3.7-4.3 0-5.8-1.8-9.3-3.6-10.8zm13.8 17.4H46.3c0 13.5 1.8 17.6 5.1 21.4 2.7 3 5.1 3.9 8.5 3.9 9.2 0 14.3-4.7 16-12.8h.5C74.3 74 67.9 80.7 58 80.7a22 22 0 0 1-16.3-5.9c-4.6-5-6.3-11-6.3-19.2 0-15.5 8.9-25.9 21.1-25.9 14.2 0 20.4 9.6 20.4 18.6v3.2zm19.6 5.4c-3.2 1.7-4.6 2.9-5.7 4.5-1.1 1.8-1.8 4-1.8 7.2 0 6.5 2.5 8 7.2 8 .9 0 2-.2 2.8-.7 2.5-1.2 6-5 6-8.6V51c-1.5 2.6-5.4 4.2-8.5 5.8zm17.1 23.8c-2.7 0-5-.1-6.3-1-1.5-.7-2.6-3-2.3-7.3h-.1c-1.2 4-6.4 8.3-13.8 8.3-6.8 0-12.8-4-12.8-12.2 0-3.1.9-5.6 2.8-7.4 3.6-3.4 8.5-3.6 13.4-5.5 6.6-2.6 10.8-5.7 10.8-9.2l.2-7.4c0-6.2-2.9-7.2-7.8-7.2-2.4 0-4 .4-5 1.6s-1.7 2.2-1.7 5.6c0 3.6-2 5.1-5.2 5.1-2.6 0-4.7-1.4-4.7-4.4A7 7 0 0 1 83 35c2.5-3.2 9.6-5.2 14.5-5.2 8.6 0 18 3.1 18 11.3l-.1 28.9v4.5c.2 2 .7 4 2.9 4.5a4 4 0 0 0 3-.5v.1c-1.1 1-4 2.1-7.7 2.1zm7.9-1v-.3c.5 0 1.4-.3 2-.5 1.9-.8 2.8-1.5 3.4-4.5.5-2.2.5-6 .5-9.3V14.8c0-2 0-7.5-.3-9.2-.3-2.2-.9-3-2-3.7-1.2-1-2.1-1-3-1V.6h14.6c.7 0 .7 0 .7.8l-.1 7.3V65c0 3.3-.1 7 .3 9.3.7 3 1.5 3.7 4 4.6l1.5.4v.3h-21.6">
+                </path>
+                <path fill="#252521"
+                    d="M174.6 73.2a14 14 0 0 1-11.8 7.4c-4.5 0-7.5-.7-10-3-2.1-1.8-3-4.1-3-8.4l.4-37.9c-1.7 0-5 0-6.8-.3v-.2c7.2-1.7 11.7-5.4 16.5-21h.4V29h11.4v2.2h-11.4l-.5 38.8c0 4.4 1.3 8.2 5.9 8.2 4 0 7.1-2.4 8.5-5.2l.4.2">
+                </path>
+                <path fill="#252521"
+                    d="M201.7 35.2a9 9 0 0 0-7.6-3.3c-2.6 0-5.3.9-7.5 3.2-3.5 3.6-5.4 11.1-5.4 19.9 0 9 2 16 5.3 19.8 2.3 2.8 5 3.5 7.6 3.5 2.6 0 5.2-.6 7.6-3.3 3.1-3.8 5.3-11 5.3-20 0-8.9-2-16-5.3-19.8zm-7.6 45.4A24.7 24.7 0 0 1 170.4 55a24.5 24.5 0 0 1 23.7-25.4c11.4 0 23.8 9.7 23.8 25.4A24.8 24.8 0 0 1 194 80.6zm141.6-45.4a9 9 0 0 0-7.6-3.3c-2.6 0-5.3.9-7.5 3.2-3.5 3.6-5.4 11.1-5.4 19.9 0 9 2 16 5.3 19.8 2.3 2.8 5 3.5 7.6 3.5 2.6 0 5.2-.6 7.6-3.3 3.1-3.8 5.3-11 5.3-20 0-8.9-2-16-5.3-19.8zm-7.6 45.4A24.7 24.7 0 0 1 304.4 55a24.5 24.5 0 0 1 23.7-25.4c11.4 0 23.8 9.7 23.8 25.4A24.9 24.9 0 0 1 328 80.6zm-73.9.7a6.1 6.1 0 0 1-6.1-6.3c0-3.7 2.8-6.4 6.1-6.4 3.4 0 6.1 2.3 6.1 6.4 0 4-2.7 6.3-6 6.3m32-.7c-6.3 0-12-2.4-15.7-6.1-4.7-4.8-6.6-11.7-6.6-20 0-15.7 12-24.9 22.4-24.9 7.2 0 12.5 2.7 14.6 5.2 1.6 2 2.4 3.7 2.4 5.3 0 3.6-2.7 5-4.7 5-4 0-5.4-2.5-5.8-6.2-1-6.5-2-7.4-7-7.4-1.9 0-5 .8-6.9 3-2.6 3-4 9-4 18 0 11.4 1.4 15.8 4.4 20.2 2.2 3.3 5 4 7.6 4 10.4 0 15-6 16.6-12.8l.5.1c-2.1 9.1-8.1 16.6-17.8 16.6">
+                </path>
+                <path fill="#252521"
+                    d="M411 79.6v-.2l1.7-.6c2.3-1 3.1-1.5 3.7-4.6.6-2.3.5-6 .5-9.3V45c0-5.4-.5-7.9-1.8-9.6-1.5-2-3.3-3-6.3-3-5.2 0-11 8.9-11.8 17.8l-.2 5.3v9.5c0 3.3-.3 7 .3 9.3.6 3 1.5 3.7 3.8 4.6l1.8.6v.2H381v-.2l1.7-.6c2.3-1 3.1-1.5 3.7-4.6.6-2.3.5-6 .5-9.3V45c0-5.4-.6-7.9-1.9-9.6-1.5-2-3.3-3-6.3-3-5.8 0-11 9.1-11.8 18-.2 2.8-.2 1.7-.2 5.2v9.4c0 3.3-.3 7 .3 9.4.6 3.1 1.5 3.5 4 4.5l1.5.6v.2h-21.5v-.2l1.7-.6c2.4-1 3-1.4 3.7-4.5.6-2.3.4-6.1.4-9.4V45c0-2 0-7.5-.2-9.3-.3-2.2-.8-2.7-2-3.7-1.1-.9-2.1-.9-3-1v-.2h14.6c.7 0 .7 0 .7.7l-.2 11.3a17 17 0 0 1 16.1-13c5.1 0 8.7 1.4 10.8 4 1.1 1.3 3 4.6 3 9.3 1.6-5.4 4.3-8.4 6.8-10.1a18 18 0 0 1 9.4-3.3c6.4 0 9.3 2 11 4.2 1.5 1.7 2.8 4.8 2.8 10.7V65c0 3.3-.1 7 .4 9.3.6 3 1.4 3.6 3.8 4.6l1.7.6v.2H411m27.5-48.5c.5 0 .8-.1 1-.3.3-.2.4-.5.4-.8a1 1 0 0 0-.3-.9c-.3-.2-.6-.2-1-.2h-1.8V31h1.7zm-3-3.5h3c1 0 1.7.3 2.2.8.4.4.6.9.6 1.5s-.1 1-.4 1.4c-.4.4-.7.6-1.2.7l1.9 2.7H440l-1.7-2.4h-1.5v2.4h-1.4v-7zm2.6 9.6a5.6 5.6 0 0 0 4.1-1.8 5.7 5.7 0 0 0 1.7-4 5.8 5.8 0 0 0-1.6-4.1 5.8 5.8 0 0 0-9.9 4v.1a5.7 5.7 0 0 0 3.5 5.3c.7.3 1.4.5 2.2.5zm0 .8a6.5 6.5 0 0 1-4.6-2 6.7 6.7 0 0 1-2-4.6 6.4 6.4 0 0 1 2-4.7 6.7 6.7 0 0 1 4.7-2 6.5 6.5 0 0 1 6 4 6.4 6.4 0 0 1 0 5.1 6.7 6.7 0 0 1-6 4.2z">
+                </path>
+            </g>
+        </svg></a>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active header-li ">
+                    <a class="nav-link global-header-li-menu-hover" href="#">Buy <span class="sr-only">(current)</span></a>
+                    <div class="pop">
+                        <div class="pop_content">
+                            <div class="pop_menu">
+                                <h4>Homes for Sale</h4>
+                                <a href="/" class="pop_link">Senior Housing</a>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Homes Values</h4>
+                                <a href="/" class="pop_link">Property Records</a>
+                                <a href="/" class="pop_link">Home Buying Tips</a>
+                                <a href="/" class="pop_link">Home Selling Tips</a>
+
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Home Buying Tips</h4>
+                                <a href="/" class="pop_link">Home Buyers Reveal: 'What I Wish I Had Known Before
+                                        Buying My First Home'</a>
+                                <a href="/" class="pop_link">More Home Buying Insights</a>
+                                <a href="/" class="pop_link">Success Stories</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item header-li">
+                    <a class="nav-link" href="#">Sell</a>
+                    <div class="pop">
+                        <div class="pop_content">
+                            <div class="pop_menu">
+                                <h4>Home Selling</h4>
+                                <a href="/" class="pop_link">See What Your Home Is Worth</a>
+                                <a href="/" class="pop_link">Lern How To Sell Your Home</a>
+                                <a href="/" class="pop_link">How To Select An Agent</a>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Home Selling Tips</h4>
+                                <a href="/" class="pop_link">Selling Your Home? Don't Neglect These 6 Maintenance
+                                    Tasks - Or Else</a>
+                                <hr>
+                                <a href="/" class="pop_link">More Home Selling Insights</a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item header-li">
+                    <a class="nav-link" href="#">Rent</a>
+                    <div class="pop">
+                        <div class="pop_content">
+                            <div class="pop_menu">
+                                <h4>Apartments For Rent</h4>
+                                <a href="/" class="pop_link">Senior Housing</a>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Common Searches</h4>
+                                <a href="/" class="pop_link">Should I Rent Or Buy?</a>
+                                <a href="/" class="pop_link">Renting With Pets Tips</a>
+                                <br>
+                                <h4>Landlord Tools</h4>
+                                <a href="/" class="pop_link">List Your Rentals</a>
+
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Home Renting Tips</h4>
+                                <a href="/" class="pop_link">Debunked! 8 Myths About Renting You Should Stop
+                                    Believing Immediatel</a>
+                                <hr> <a href="/" class="pop_link">More Renting Insights</a>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item header-li">
+                    <a class="nav-link header-li" href="#">Mortgage</a>
+                    <div class="pop">
+                        <div class="pop_content">
+                            <div class="pop_menu">
+                                <h4>Mortgage Rates</h4>
+                                <ul role="menu" aria-label="Mortgage Rates">
+                                    <li><a class="pop_link" href="/mortgage/home-loan/" role="menuitem">Get
+                                            Pre-Approved</a></li>
+                                    <li><a class="pop_link" href="/mortgage/rates/" role="menuitem">Mortgage
+                                            Rates</a></li>
+                                    <li><a class="pop_link" href="/mortgage/home-equity-rates?iid=global_nav&amp;reference=global_nav" role="menuitem">Home Equity Financing Rates</a></li>
+                                    <li><a class="pop_link" href="/mortgage/rates/#loan_purpose=refinance" role="menuitem">Refinance Rates</a></li>
+                                    <li><a class="pop_link" href="/advice/finance/" role="menuitem">Finance
+                                            Advice</a></li>
+                                    <li><a class="pop_link" href="/mortgage/va-home-loan-center/" role="menuitem">For Veterans</a></li>
+                                </ul>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Calculators</h4>
+                                <ul role="menu" aria-label="Calculators">
+                                    <li role="none"><a class="pop_link" title="" href="/mortgage/tools/mortgage-calculator/" role="menuitem">Mortgage
+                                            Calculator</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/mortgage/tools/refinance-calculator/" role="menuitem">Refinance
+                                            Calculator</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/mortgage/tools/affordability-calculator/" role="menuitem">How
+                                            Much House Can I Afford</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/mortgage/tools/rent-or-buy-calculator/" role="menuitem">Rent vs.
+                                            Buy</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/mortgage/tools/price-perfect?iid=global_nav" role="menuitem">Price Perfect℠ Find My Buying Power</a></li>
+                                </ul>
+
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Financial Advice</h4>
+                                <ul role="menu" aria-label="Financial Advice">
+                                    <li role="none"><a class="pop_link" title="" href="/advice/finance/ways-home-buyers-mess-up-mortgage/" role="menuitem">6 Ways Home Buyers Mess Up Getting A Mortgage</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/guides/mortgage/" role="menuitem">Mortgage Guide</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/finance/" role="menuitem">More Finance Insights</a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item header-li">
+                    <a class="nav-link header-li" href="#">Find Realtors®</a>
+                    <div class="pop">
+                        <div class="pop_content">
+                            <div class="pop_menu">
+                                <h4>Find REALTORS<sup>&reg;</sup></h4>
+                                <ul role="menu" aria-label="Find REALTORS&lt;sup&gt;&amp;reg;&lt;/sup&gt;">
+                                    <li role="none"><a class="pop_link" title="" href="/realestateagents" role="menuitem">Search For Real Estate Agent</a></li>
+                                </ul>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Why Use A REALTOR<sup>&reg;</sup></h4>
+                                <ul role="menu" aria-label="Why Use A REALTOR&lt;sup&gt;&amp;reg;&lt;/sup&gt;">
+                                    <li role="none"><a class="pop_link" title="" href="/advice/buy/why-you-should-use-realtor/" role="menuitem">6 Reasons
+                                            You Should Never Buy Or Sell A Home Without An Agent</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/buy/whats-difference-real-estate-salesperson-broker/" role="menuitem">Difference Between Agent, Broker &
+                                            Realtor<sup>&reg;</sup></a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/buy/what-is-a-buyers-agent-used-for/" role="menuitem">Listing vs. Buyer Agent</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/sell/find-a-realtor/" role="menuitem">How To Find A REALTOR<sup>&reg;</sup></a></li>
+                                </ul>
+
+                            </div>
+                            <div class="pop_menu">
+                                <h4>News Around REALTORS<sup>&reg;</sup></h4>
+                                <ul role="menu" aria-label="News Around REALTORS&lt;sup&gt;&amp;reg;&lt;/sup&gt;">
+                                    <li role="none"><a class="pop_link" title="" href="/advice/buy/toughest-home-buyers-ever/" role="menuitem">Real
+                                            Estate Agents Reveal the Toughest Home Buyers They've Ever Met</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/news/trends/" role="menuitem">More News Around REALTORS<sup>&reg;</sup></a></li>
+                                </ul>
+
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item header-li">
+                    <a class="nav-link header-li" href="#">My Home</a>
+                </li>
+                <li class="nav-item header-li">
+                    <a class="nav-link" href="#">News & Insights</a>
+                    <div class="pop">
+                        <div class="pop_content">
+                            <div class="pop_menu">
+                                <h4>News</h4>
+                                <ul role="menu" aria-label="News">
+                                    <li role="none"><a class="pop_link" title="" href="/news/" role="menuitem">The
+                                            Latest News</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/news/trends/" role="menuitem">Housing Trends</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/news/real-estate-news/" role="menuitem">Real Estate News</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/news/celebrity-real-estate/" role="menuitem">Celebrity Real Estate</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/news/unique-homes/" role="menuitem">Unique Homes</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/for-pros/" role="menuitem">For Pros</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/homemade/" role="menuitem">Corporate Blog</a></li>
+                                </ul>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Insights</h4>
+                                <ul role="menu" aria-label="Insights">
+                                    <li role="none"><a class="pop_link" title="" href="/advice/buy/" role="menuitem">Buying</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/sell/" role="menuitem">Selling</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/rent/" role="menuitem">Renting</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/finance/" role="menuitem">Financing</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/move/" role="menuitem">Moving</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/advice/home-improvement/" role="menuitem">Home Improvement</a></li>
+                                    <li role="none"><a class="pop_link" title="" href="/research/" role="menuitem">Research</a></li>
+                                </ul>
+                            </div>
+                            <div class="pop_menu">
+                                <h4>Guides & More</h4>
+                                <ul>
+                                    <li><a class="pop_link" href="//www.realtor.com/videos/video-the-5-maintenance-skills-all-homeowners-should-know/314dd542-84a1-4cde-a50c-cb204af4c6f2/">The
+                                            5 Maintenance Skills All Homeowners Should Know</a></li>
+                                    <li><a class="pop_link" href="/welcome/first-time-buyer/?iid=int-rdc_firstTimeBuyer_editorial_headernav">First-Time
+                                            Home Buyer Resource Center</a></li>
+                                    <li><a class="pop_link" href="/advice/guides/mortgage/">Mortgage Guide</a></li>
+                                    <li><a class="pop_link" href="/advice/guides/va-loan/?utm_source=NISubNav">Veterans Home Buyer
+                                            Guide</a></li>
+                                    <li><a class="pop_link" href="/advice/guides/septic-system-survival-guide">Septic Survival
+                                            Guide</a></li>
+                                    <li><a class="pop_link" href="/videos/">Real Estate Videos</a></li>
+                                    <li>
+                                        <ahref="/resources/">Housing Resources</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <ul class="navbar-nav-log">
+            <li class="dropdown header-login-menu header-logged-menu" id="header-login-menu" style="display:none">
+                <a data-omtag="header-menu:my-account:profile" title="User Name" class="dropdown-toggle disabled dropdown-toggle-desktop" data-toggle="dropdown" href="/myaccount">
+                    <input id="my-account-url" type="hidden" name="myaccount_url" value="/myaccount">
+                    <span class="header-login-text js-username"></span>
+                    <span class="header-login-icon"><i class="fas fa-mobile-alt"></i></span>
+                </a>
+                <div role="menu" class="fade-effect dropdown-menu dropdown-hover-login dropdown-multicolumn dropdown-hover dropdown-hover-logged" style="margin-top: 15px;">
+
+                    <div id="idSavedSearchesAndProp" class="global-nav-logged-wrapper">
+                        <div class="global-nav-username-section global-nav-clearfix">
+                            <div class="global-nav-username">
+                                <p>Hi, <span class="myaccount-username"></span></p>
+                            </div>
+                            <div class="global-nav-profile-links">
+                                <ul class="global-nav-list-horizontal global-nav-list-style-line">
+                                    <li><a href="/myaccount" data-omtag="header-menu:my-acct:settings">Settings</a></li>
+                                    <li><a id="myaccount_logout" href="javascript:void(0);" onclick="myServiceLogout();" data-omtag="header-menu:my-acct:sign-out">Sign Out</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="global-nav-logged-recent-activity">
+                            <div id="my_home_div">
+                                <div class="global-nav-clearfix">
+                                    <a class="global-nav-logged-activity-titles" data-omtag="header-menu:my-acct:track-my-home" href="https://www.realtor.com/myhome">My Home</a>
+                                    <p>Get quick and easy access to your home value, neighborhood activity and financial possibilites.</p>
+                                    <p class="global-nav-text-center">
+                                        <a href="https://www.realtor.com/myhome" data-omtag="header-menu:my-acct:track-my-home" class="global-nav-btn global-nav-btn-primary global-nav-logged-activity-my-home">Track my home</a>
+                                    </p>
+                                </div>
+                                <hr class="global-nav-links-divider">
+                            </div>
+                            <div id="my_properties_div">
+                                <div class="global-nav-clearfix">
+                                    <a class="global-nav-logged-activity-titles" data-omtag="header-menu:my-acct:my-properties" href="/myaccount/saved_homes">Saved Homes</a>
+                                    <p>Click the <i class="svg-icon svg-icon-heart-o svg-menu-icons"></i> to save properties</p>
+                                </div>
+
+
+                            </div>
+                            <div>
+                                <div id="no_property_div">
+                                    <div class="global-nav-clearfix">
+                                        <a class="global-nav-logged-activity-titles" data-omtag="header-menu:my-acct:my-properties" href="/myaccount/saved_homes">Saved Homes</a>
+                                        <p>Click the <i class="svg-icon svg-icon-heart-o svg-menu-icons"></i> to save properties</p>
+                                    </div>
+                                </div>
+                                <hr class="global-nav-links-divider">
+                            </div>
+                            <div id="my_search_div">
+                                <div class="global-nav-clearfix">
+                                    <a class="global-nav-logged-activity-titles" data-omtag="header-menu:my-acct:my-searches" href="/myaccount/saved_searches">Saved Searches</a>
+                                    <p>Click <span class="global-nav-font-semibold">Follow Search</span> to get alerts on new listings</p>
+                                </div>
+
+
+                            </div>
+                            <div>
+                                <div id="no_search_div">
+                                    <div class="global-nav-clearfix">
+                                        <a class="global-nav-logged-activity-titles" data-omtag="header-menu:my-acct:my-searches" href="/myaccount/saved_searches">Saved Searches</a>
+                                        <p>Click <span class="global-nav-font-semibold">Follow Search</span> to get alerts on new listings</p>
+                                    </div>
+                                </div>
+                                <hr class="global-nav-links-divider">
+                            </div>
+                        </div>
+                    </div>
+
+                    <ul class="global-nav-list-unstyled header-log-out">
+                        <li><a id="logout" href="javascript:void(0)">Sign Out</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li id="header-login-menu " class="nav-item header-li hide">
+                <a class="nav-link" data-omtag="header-menu:my-account:login" title="Log in to your account">
+                    <span class="header-login-text login"><i class="fas fa-mobile-alt"></i></span>
+                </a>
+            </li>
+            <li id="header-login-menu_1" class="nav-item header-li">
+                <a class="nav-link" data-omtag="header-menu:my-account:login" title="Log in to your account">
+                    <span class="header-login-text login">Log In</span>
+                </a>
+            </li>
+            <li id="header-login-menu_2" class="nav-item header-li">
+                <a class="nav-link" data-omtag="header-menu:my-account:login" title="Create a free account with realtor.com">
+                    <span class="header-login-text signup">Sign Up</span>
+                </a>
+            </li>
+            <li id="header-login-menu_3" class="header-login-menu hide">
+                <a data-omtag="header-menu:my-account:login" title="Create a free account with realtor.com">
+                    <span class="header-login-icon signup"><i class="svg-icon svg-icon-user"></i></span>
+                </a>
+            </li>
+            <li class="hide" style="padding-top: 30px;margin: 8px 0px 0px 0px;border-left: 1px solid #c4c4c4;height: 14px;">
+
+            </li>
+            <li id="header-login-menu_4" class="nav-item header-li hide">
+                <a class="nav-link" href="//marketing.realtor.com/" title="Real Estate Marketing and Advertising for Agents and Brokers" data-omtag="header-menu:my-account:advertise">
+                    <span class="header-login-text advertise">Advertise</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <nav class="navbar navbar-light searchbar">
+        <div class="col-auto input-group md-form form-sm form-2 pl-0">
+            <input class="form-control my-0 py-1 amber-border" type="text" placeholder="Search" aria-label="Search">
+            <div class="input-group-append">
+                <span class="input-group-text amber lighten-3" id="basic-text1"><i class="fas fa-search text-grey"
+                  aria-hidden="true"></i></span>
+            </div>
+        </div>
+        <ul class=" navbar-nav-search input-group">
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Price
+                </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-header">
+                                Price range
+                            </div>
+                            <form class="price-input" action="/">
+
+
+
+                                <div class="d-flex">
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">$</span>
+                                            <input type="text" class="form-control" placeholder="Min">
+                                        </div>
+                                        <ul id="price-input-1-list" class="list-unstyled input-1-list range-input-list">
+
+                                            <li data-val="0" class="">$0</li>
+                                            <li data-val="250000" class="">$250k</li>
+                                            <li data-val="450000" class="">$450k</li>
+                                            <li data-val="700000" class="">$700k</li>
+                                            <li data-val="900000" class="">$900k</li>
+                                            <li data-val="1200000" class="">$1.2M</li>
+                                            <li data-val="1400000" class="">$1.4M</li>
+                                            <li data-val="1600000" class="">$1.6M</li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="input-group">
+                                            <span class="input-group-addon">$</span>
+                                            <input type="text" class="form-control" placeholder="Max">
+                                        </div>
+                                        <ul id="price-input-2-list" class="list-unstyled input-2-list range-input-list">
+                                            <li data-val="400000" class="">$400k</li>
+                                            <li data-val="800000" class="">$800k</li>
+                                            <li data-val="1200000" class="">$1.2M</li>
+                                            <li data-val="1600000" class="">$1.6M</li>
+                                            <li data-val="2000000" class="">$2M</li>
+                                            <li data-val="2400000" class="">$2.4M</li>
+                                            <li data-val="2800000" class="">$2.8M</li>
+                                            <li data-val="Any" class="">Any Price</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li class="hide">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Property Type
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <div class="card" style="width: 340px">
+                            <div class="card-header">
+                                Property Type
+                            </div>
+                            <div class="row p-0">
+                                <div class="col-6 d-flex prop">
+                                    <span class="icon-check">
+                                            <i class="fas fa-home main-icon"></i>
+                                            <i class="fas fa-check-circle v-icon"></i>
+                                    </span>
+                                    <label for="">Any</label>
+                                </div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                        <i class="fas fa-home main-icon"></i>
+                                        <i class="fas fa-check-circle v-icon"></i>
+                                </span>
+                                    <label for="">House</label></div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                        <i class="fas fa-home main-icon"></i>
+                                        <i class="fas fa-check-circle v-icon"></i>
+                                </span>
+                                    <label for="">Farm Ranch</label></div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                        <i class="fas fa-home main-icon"></i>
+                                        <i class="fas fa-check-circle v-icon"></i>
+                                </span>
+                                    <label for="">Multi Family</label></div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                        <i class="fas fa-home main-icon"></i>
+                                        <i class="fas fa-check-circle v-icon"></i>
+                                </span>
+                                    <label for="">Mobile / Mfd</label></div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                        <i class="fas fa-home main-icon"></i>
+                                        <i class="fas fa-check-circle v-icon"></i>
+                                </span>
+                                    <label for="">Land</label></div>
+                            </div>
+                            <div class="d-flex align-items-baseline" style="margin: 10px;">NYC Only<i class="fas fa-info-circle" style="padding-left: 5px;"></i></div>
+
+                            <div class="row p-0">
+                                <div class="col-6 d-flex prop">
+                                    <span class="icon-check">
+                                                <i class="fas fa-home main-icon"></i>
+                                                <i class="fas fa-check-circle v-icon"></i>
+                                        </span>
+                                    <label for="">Condo</label>
+                                </div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                            <i class="fas fa-home main-icon"></i>
+                                            <i class="fas fa-check-circle v-icon"></i>
+                                    </span>
+                                    <label for="">Co-op</label></div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                            <i class="fas fa-home main-icon"></i>
+                                            <i class="fas fa-check-circle v-icon"></i>
+                                    </span>
+                                    <label for="">Townhome</label></div>
+                                <div class="col-6 d-flex prop"><span class="icon-check">
+                                            <i class="fas fa-home main-icon"></i>
+                                            <i class="fas fa-check-circle v-icon"></i>
+                                    </span>
+                                    <label for="">Condop</label></div>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </li>
+            <li class="hide2">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Beds
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </li>
+            <li class="hide2">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Baths
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </li>
+            <li class="hide1">
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Listing Status
+                </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="dropdown">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  More <span class="hide"> Filters</span>
+                </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </div>
+            </li>
+            <li class="hide">
+                <button type="button" class="btn btn-outline-danger">Save Search</button>
+
+            </li>
+        </ul>
+    </nav>
+    <div class="container-fuild cont">
+        <div>
+            <h1 class="page-title">New York, NY Real Estate & Home for Sale</h1>
+        </div>
+        <div class="alert-info">
+            <div class="btn-group " role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-dark">List</button>
+                <button type="button" class="btn btn-outline-dark">Map</button> </div>
+            <span class="hidden-xs hidden-xxs">Showing homes from Manhattan, NY.</span>
+            <a href="/realestateandhomes-search/New-York_NY">Click here to view all New York City Listings.</a>
+        </div>
+        <div class="component_ab-sort clearfix d-flex">
+            <span id="search-result-count">
+                  30,851
+                    Homes
+                </span>
+            <div id="srp-sorting-wrap" class="srp-sorting-control">
+                <fieldset class="srp-sorting-input srp-customselect-input">
+                    <label for="srp-sortby" class="font-normal">Sort by</label>
+                    <select id="srp-sortby" class="hasCustomSelect" data-omtag="for_sale:srp_list:sort-order:selection" style="-webkit-appearance: menulist-button; width: 131px; position: absolute; opacity: 0; height: 23px; font-size: 14px;">
+                  <option value="8">Relevant Listings</option>
+          <option value="6">Newest Listings</option>
+          <option value="1">Lowest Price</option>
+          <option value="2">Highest Price</option>
+          <option value="5">Open House Date</option>
+          <option value="7">Recently Reduced</option>
+          <option value="14">Largest Sqft</option>
+          <option value="9">Lot Size</option>
+                </select><span class="customsort-dropdown no-show" style="display: inline-block;"><span class="customsort-dropdownInner" style="width: 129px; display: inline-block;">Relevant Listings</span></span>
+
+                </fieldset>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 col-lg-3 col-sm-6">
+                <div class="card">
+                    <div class="img_div">
+                        <img alt="451 Stoneridge Ln Unit 3102, San Francisco, CA 94134" itemprop="image" data-src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg" src="https://ap.rdcpix.com/549094430/61622ebe9c258807cb3e2bd24e1a792el-m0od-w480_h360.jpg"
+                            class="img_card">
+                        <span class="left_green">NEW - 8 HOURS AGO</span>
+                        <!-- <div class="h_div"><span class="heart"></span></div> -->
+                        <div class="jsx-1146423330 save-wrap"><button type="button" aria-label="Save Listing" data-testid="save-button" class="jsx-3446138165 "><svg
+                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"
+                                aria-labelledby="Save Listing" width="40" height="40" tabindex="-1"
+                                class="jsx-2877931502 ">
+                                <path fill="rgba(0,0,0,0.4)" stroke="#fff" stroke-width="3"
+                                    d="M20 8.3c4.9-8 18.5-5.9 18.5 5l-.1 1.9c-.8 4.6-4 9.3-8.9 14a66.6 66.6 0 0 1-8.7 7l-.7.6-.8-.5a27.6 27.6 0 0 1-2.8-1.7c-2-1.4-4-3-6-4.7-5.6-5-9-10.3-9-15.8A10 10 0 0 1 20 8.3z"
+                                    class="jsx-2877931502"></path>
+                            </svg></button></div>
+                        <span class="price">$775,000</span>
+                    </div>
+                    <div class="jsx-1146423330 detail-wrap">
+                        <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                            <div class="jsx-1146423330 photo-overlay">
+                                <div data-label="pc-type" class="jsx-1146423330 property-type"><span class="jsx-1146423330"></span></div>
+                            </div>
+                        </a>
+                        <div class="jsx-1146423330 summary-wrap">
+                            <div class="jsx-1146423330 property-wrap">
+                                <a href="/realestateandhomes-detail/451-Stoneridge-Ln-3102_San-Francisco_CA_94134_M24023-26686" rel="noopener" class="jsx-1146423330">
+                                    <div class="jsx-1146423330 prop-meta">
+                                        <div class="jsx-463895589 meta-section my_acctMeta">
+                                            <ul class="jsx-463895589 property-meta list-unstyled">
+                                                <li data-label="pc-meta-beds" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bed</span></li>
+                                                <li data-label="pc-meta-baths" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">2</span><span data-label="meta-label" class="jsx-463895589 meta-label">bath</span></li>
+                                                <li data-label="pc-meta-sqft" class="jsx-463895589 prop-meta my_acct">
+                                                    <span data-label="meta-value" class="jsx-463895589 meta-value">1,068</span><span data-label="meta-label" class="jsx-463895589 meta-label">sqft</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div data-label="pc-address" class="jsx-1146423330 address ellipsis">451 Stoneridge Ln Unit 3102,
+                                        <div data-label="pc-address-second" class="jsx-1146423330 address-second">San Francisco, CA 94134</div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination justify-content-center">
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                </a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

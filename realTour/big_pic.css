@@ -1,0 +1,37 @@
+.big-pic {
+    width: 100%;
+    height: 500px;
+    background-image: url("https://rdcnewscdn.realtor.com/wp-content/uploads/2019/09/foliage-homes-1441-1440x525.jpg");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-pic-con {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.big-pic-con * {
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.big-pic-con span {
+    font-size: 20px;
+}
+
+.big-pic-con h3 {
+    font-size: 1.5em;
+    margin: 40px auto;
+}
+
+.big-pic-con a {
+    font-size: 16px;
+    border: 1px solid white;
+    padding: 10px 24px;
+    border-radius: 30px;
+    text-decoration: none;
+}
