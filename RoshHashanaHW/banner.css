@@ -1,0 +1,26 @@
+.banner {
+  background-image: url(../images/banner.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+  min-height: 750px; }
+
+.navbar {
+  max-width: 1170px;
+  margin: auto; }
+
+#navbarNav {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.navbar-toggler {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: #e84545; }
+  .navbar-toggler-icon {
+    display: table-cell; }

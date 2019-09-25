@@ -1,0 +1,108 @@
+.banner {
+    background-image: url(/images/banner.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    min-height: 750px;
+}
+
+#header {
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+
+#header.fixed {
+    background-color: #292c47;
+}
+
+.navbar {
+    padding: .5rem 1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+    padding: 40px 0;
+    transition: all .5s;
+    & a {
+        color: rgba(255, 255, 255, 0.75);
+        font-size: 13px;
+        font-weight: 700;
+        // margin-left: 15px;
+        text-transform: uppercase;
+        padding: 0;
+    }
+    &-brant {
+        margin-left: 0;
+    }
+    #header.fixed & {
+        border-bottom: 0;
+        padding: 25px 0;
+    }
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+.navbar-toggler {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background-color: #e84545;
+    &-icon {
+        display: table-cell;
+    }
+}
+
+.banner-contant {
+    padding-top: 25%;
+    margin: 0 auto;
+    & h1 {
+        color: #fff;
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    & p {
+        color: #fff;
+        font-size: 22px;
+        font-weight: 300;
+        line-height: 1.5;
+        margin-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-contant {
+        & h1 {
+            font-size: 42px;
+        }
+        & p {
+            font-size: 18px;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .banner-contant h1 {
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .banner-text p {
+        font-size: 18px;
+    }
+}
+
+// @media (min-width: 992px) {
+//     .container {
+//         width: 970px;
+//     }
+// }
+// @media (min-width: 768px) {
+//     .container {
+//         width: 750px;
+//     }
+// }
